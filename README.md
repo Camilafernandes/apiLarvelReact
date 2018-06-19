@@ -49,6 +49,9 @@ E a resposta deverá ser algo como o json que segue
 
 ```json
 {"access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MC9hcGkvYXV0aC9sb2dpbiIsImlhdCI6MTUyOTQzMTMzMiwiZXhwIjoxNTI5NDM0OTMyLCJuYmYiOjE1Mjk0MzEzMzIsImp0aSI6Ing4Q3RwOUZ3b3I5UzdCRUEifQ.T0dmZ_7n8OpcWBd4sr64hY9PeIjM9e-YPcD1Cfp-kPg","token_type":"bearer"}
+```
+
+Para cadastro de produto execute o comando:
 
 ```bash
 
@@ -60,3 +63,4 @@ E a resposta deverá ser algo como o json que segue
 
 ```json
 {"nome":"Produto teste1","descricao":"teste de descricao de produto","valor_compra":"10.00","valor_revenda":"20.00","ativo":"1","imagem":"teste.jpg","updated_at":"2018-06-19 18:16:31","created_at":"2018-06-19 18:16:31","id":1}
+```
