@@ -11,7 +11,7 @@ class ProdutosTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('users')->insert([
+        DB::table('produtos')->insert([
             "id" => 1,
             "nome" => "Produto teste1",
             "descricao"=> "teste de descricao de produto",
