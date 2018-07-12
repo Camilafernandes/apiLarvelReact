@@ -29,9 +29,7 @@ class AuthController extends Controller
       }
 
       $token = JWTAuth::fromUser($users);
-
       $objectToken = JWTAuth::setToken($token);
-      //$expiration = JWTAuth::decode($objectToken->getToken())->get('exp');
 
       return response()->json([
         'access_token' => $token,
